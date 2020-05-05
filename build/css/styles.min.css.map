@@ -1,0 +1,1 @@
+{"version":3,"sources":["header.scss"],"names":[],"mappings":"AAAA,KACG,OAAA,EACA,QAAA,EAGH,GACG,UAAA","file":"styles.min.css","sourcesContent":["body {\r\n   margin: 0px;\r\n   padding: 0px;\r\n}\r\n\r\nh1{\r\n   font-size: 16px;\r\n}"]}
