@@ -4,28 +4,41 @@
 --------------------------------------------------------------
 Плагины: 
 
-gulp-concat,
+gulp-concat
+gulp-autoprefixer 
+gulp-clean-css
+gulp-terser
+gulp-sourcemaps
+gulp-sass
+gulp-babel
+gulp-imagemin
+gulp-rename
+gulp-ttf2woff & gulp-ttf2woff2
+del
+browser-sync.
 
-gulp-autoprefixer,
+Автопрефикс CSS файлов.
 
-gulp-clean-css,
+Автокомпилятор scss/sass в Css.
 
-gulp-terser,
+Минификация кода Css/Js.
 
-del,
+Автообновление браузера после сохранения.
 
-browser-sync,
+Нормалайз (обнуляет css отступы).
 
-gulp-sourcemaps,
+Терсер минификация и оптимизация javascript.
 
-gulp-sass,
+Бабел компилятор JavaScript ES6.
 
-gulp-babel,
+Сжатие картинок imagemin.
 
-gulp-imagemin,
+Переименование файлов rename.
 
-gulp-rename,
+Конверктор шрифтов с ttf в woff и woff2 файл
 
-gulp-ttf2woff & gulp-ttf2woff2.
+
+
+
 
 
