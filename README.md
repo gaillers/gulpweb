@@ -5,18 +5,30 @@
 Плагины: 
 
 gulp-concat; 
+
 gulp-autoprefixer; 
+
 gulp-clean-css; 
+
 gulp-terser; 
+
 gulp-sourcemaps; 
+
 gulp-sass; 
+
 gulp-babel; 
+
 gulp-imagemin; 
+
 gulp-rename; 
+
 gulp-ttf2woff & gulp-ttf2woff2; 
+
 del; 
+
 browser-sync. 
---------------------------------------------------------------
+
+
 Автопрефикс CSS файлов.
 
 Автокомпилятор scss/sass в Css.
@@ -37,6 +49,19 @@ browser-sync.
 
 Конверктор шрифтов с ttf в woff и woff2 файл
 
+Как установить сборку
+--------------------------------------------------------------
+Открываем Ide.
+
+Открываем консоль.
+
+В консоль пишем npm i.
+
+Ждем загрузки.
+
+После того как все модули установятся в терминали пишем gulp.
+
+Можно работать :)
 
 
 
