@@ -4,18 +4,18 @@
 --------------------------------------------------------------
 Плагины: 
 
-gulp-concat;
- gulp-autoprefixer; 
- gulp-clean-css;
- gulp-terser;
- gulp-sourcemaps;
- gulp-sass;
- gulp-babel;
- gulp-imagemin;
- gulp-rename;
- gulp-ttf2woff & gulp-ttf2woff2;
- del;
- browser-sync.
+gulp-concat; |
+ gulp-autoprefixer; |
+ gulp-clean-css; |
+ gulp-terser; |
+ gulp-sourcemaps; |
+ gulp-sass; |
+ gulp-babel; |
+ gulp-imagemin; |
+ gulp-rename; |
+ gulp-ttf2woff & gulp-ttf2woff2; |
+ del; |
+ browser-sync. |
 
 Автопрефикс CSS файлов.
 
