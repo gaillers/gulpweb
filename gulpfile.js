@@ -13,7 +13,7 @@ const gulp = require('gulp'),
  rename = require('gulp-rename'),
  ttf2woff = require('gulp-ttf2woff'),
  ttf2woff2 = require('gulp-ttf2woff2');
- htmlmin = require('gulp-htmlmin');
+//  htmlmin = require('gulp-htmlmin');
 
 // порядок подкл css
 const styleFiles = [
@@ -47,12 +47,12 @@ gulp.task('normalize', function () {
 });
 
 // выгрузка html файла 
-gulp.task('minify', () => {
-    return gulp.src('./*.html')
-      .pipe(htmlmin({ collapseWhitespace: false }))
-      .pipe(gulp.dest('build'));
+// gulp.task('minify', () => {
+//     return gulp.src('./*.html')
+//       .pipe(htmlmin({ collapseWhitespace: false }))
+//       .pipe(gulp.dest('build'));
+// });
 
-});
 gulp.task('pages', () => {
     return gulp.src('./src/pages/*.html')
       .pipe(gulp.dest('build/pages/'));
@@ -161,7 +161,7 @@ gulp.task('watch', function (done) {
         }
     });
     gulp.watch('./src/pages/*.html', gulp.series('pages'));
-    gulp.watch('./*html', gulp.series('minify'));
+    // gulp.watch('./*html', gulp.series('minify'));
     gulp.watch('./src/styles/**/*.css', gulp.series('styles'));
     gulp.watch('./src/styles/**/*.scss', gulp.series('styles'));
     gulp.watch('./src/styles/**/*.sass', gulp.series('styles'));
@@ -174,4 +174,4 @@ gulp.task('watch', function (done) {
     done()
 });
 
-gulp.task('default', gulp.series('del', gulp.parallel('pages','minify','normalize','styles', 'scripts', 'img-compress','font','fonts','ttf'), 'watch'));
+gulp.task('default', gulp.series('del', gulp.parallel('pages',/*'minify',*/'normalize','styles', 'scripts', 'img-compress','font','fonts','ttf'), 'watch'));
